@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════
 // CONFIGURATION
 // ═══════════════════════════════════════════════════
-const API_URL = "http://localhost:3000";
+const API_URL = "https://saas-maitresse-sarah-api.onrender.com";
 
 // ═══════════════════════════════════════════════════
 // RÉCUPÉRATION DES ÉLÉMENTS HTML
