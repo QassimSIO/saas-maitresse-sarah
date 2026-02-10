@@ -8,9 +8,7 @@ import mongoose from "mongoose";
 const connectDB = async () => {
   try {
     // Utiliser la variable d'environnement
-    const MONGODB_URI =
-      process.env.MONGODB_URI ||
-      "mongodb+srv://qassimbelktatidev:Mongo110606.qassim@cluster0.pdio2n6.mongodb.net/livrets-saas?appName=Cluster0";
+    const MONGODB_URI = process.env.MONGODB_URI;
 
     await mongoose.connect(MONGODB_URI);
 
