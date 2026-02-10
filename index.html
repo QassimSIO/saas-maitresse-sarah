@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Créateur de Livret Pédagogique</title>
+
+    <!-- LIEN vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📚 Créateur de Livret</h1>
+      <p class="subtitle">
+        Créez un livret pédagogique personnalisé en quelques clics
+      </p>
+
+      <form id="livretForm">
+        <div class="form-group">
+          <label for="prenom">Prénom de l'enfant</label>
+          <input type="text" id="prenom" placeholder="Ex: Emma" required />
+        </div>
+
+        <div class="form-group">
+          <label for="theme">Thématique</label>
+          <select id="theme" required>
+            <option value="">-- Choisissez un thème --</option>
+            <option value="lecture">📖 Lecture</option>
+            <option value="maths">🔢 Mathématiques</option>
+          </select>
+        </div>
+
+        <button type="submit">✨ Créer mon livret</button>
+      </form>
+
+      <div id="resultat"></div>
+    </div>
+
+    <!-- LIEN vers le fichier JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
