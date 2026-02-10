@@ -1,5 +1,3 @@
-// mongodb+srv://qassimbelktatidev:Mongo110606.qassim@cluster0.pdjo2n6.mongodb.net/?appName=Cluster0
-
 import mongoose from "mongoose";
 
 // ═══════════════════════════════════════════════════
